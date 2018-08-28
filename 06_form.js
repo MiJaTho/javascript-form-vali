@@ -1,5 +1,3 @@
-//Kapitel 5.8 ab Seite 458
-//https://jqueryvalidation.org/documentation/
 (function (window, document, $) {
     "use strict";
     $(function () {
@@ -89,32 +87,3 @@
 
     });
 }(window, document, jQuery));
-
-/* 
-https://jqueryvalidation.org/documentation/
-
-List of built-in Validation methods:
-
-required – Makes the element required.
-remote – Requests a resource to check the element for validity.
-minlength – Makes the element require a given minimum length.
-maxlength – Makes the element require a given maximum length.
-rangelength – Makes the element require a given value range.
-min – Makes the element require a given minimum.
-max – Makes the element require a given maximum.
-range – Makes the element require a given value range.
-step – Makes the element require a given step.
-email – Makes the element require a valid email
-url – Makes the element require a valid url
-date – Makes the element require a date.
-dateISO – Makes the element require an ISO date.
-number – Makes the element require a decimal number.
-digits – Makes the element require digits only.
-equalTo – Requires the element to be the same as another one
-
-
-
-additional-methods.js erweitert die built in Validation
-z.B. letterswithbasicpunc
-
-*/
