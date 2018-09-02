@@ -60,8 +60,7 @@
 
 
 
-            /*Möglichkeiten Element einzulesen Seite 220  */
-            // console.log(document.forms[0].vorname);
+       
             // console.log(document.getElementById("vorname"));
             // console.log(document.forms[0].elements[1]);
             // console.log(document.forms[0][1]); //input#vorname
@@ -76,10 +75,3 @@
     });
 }(window,document));
 
-/* 
-Kapitel 7.8 Buch 
-7.8 - 7.8.4
-
-
-Lesen und an diesem Forumlar testen.
-*/
